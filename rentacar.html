@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href= "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA1L2pvYjk2My1hLTA5NC12XzQuanBn.jpg" type="image/x-icon" />
+    <title>AZoom Car Rental</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logoheader">
+            <a href="index.html" alt="logo" class="logo"><img src="Logo.png" class="logo"></img></a>
+        </div>
+        <nav>
+            <ul>
+                <li><div class="button"><a href="index.html">Home</a></div></li>
+				<li><div class="mainbutton"><a href="rentacar.html">Rent a Car</a></div></li>
+                <li><div class="button"><a href="returncar.html">Return Car</a></div></li>
+                <li><div class="button"><a href="faq.html">FAQ</a></div></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="page-container">
+        <div id="content-wrap"> 
+            <main>
+                <h1>Rent a Car</h1>
+                
+                <div id="filterBrand">
+                    <button class="btn active" onclick="selectFilter('all')"> Show all</button>
+                    <button class="btn" onclick="selectFilter('bmw')"> BMW</button>
+                    <button class="btn" onclick="selectFilter('hyundai')"> Hyundai</button>
+                    <button class="btn" onclick="selectFilter('tesla')"> Tesla</button>
+                </div>
+
+                
+                <div class="container">
+                    <div class="filterDiv tesla">
+                        <img src="https://ev-database.org/img/auto/Tesla_Model_3_2024/Tesla_Model_3_2024-01.jpg" alt="tesla model 3">
+                        <h1>Tesla Model 3</h1>
+                        <table class="carspecs">
+                            <tr>
+                                <td><img src="https://p7.hiclipart.com/preview/722/101/213/computer-icons-user-profile-circle-abstract.jpg" alt="pax"> Pax: 5</td>
+                                <td><img src="https://www.freeiconspng.com/thumbs/battery-icon/battery-icon-13.png" alt="battery"> 57.5 kWh</td>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEYvLIpmqX-oWpFYUdR0MwicLLlKVHSqqAw&s" alt="eco"> 139 Wh/km</td>
+                            </tr>
+                        </table>
+                        <p class="price">S$130 /day</p>
+                        <p><a href="reserve.html"><button>Reserve now</button></a></p>
+                    </div>
+                    <div class="filterDiv hyundai">
+                        <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg__marking_background__sm_/v1/editorial/hyundai-kona-ev-usa-my24-1001x565-%282%29.jpg" alt="kona electric">
+                        <h1>Hyundai Kona Electric</h1>
+                        <table class="carspecs">
+                            <tr>
+                                <td><img src="https://p7.hiclipart.com/preview/722/101/213/computer-icons-user-profile-circle-abstract.jpg" alt="pax"> Pax: 5</td>
+                                <td><img src="https://www.freeiconspng.com/thumbs/battery-icon/battery-icon-13.png" alt="battery"> 48.04 Wh</td>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEYvLIpmqX-oWpFYUdR0MwicLLlKVHSqqAw&s" alt="eco"> 164 Wh/km</td>
+                            </tr>
+                        </table>
+                        <p class="price">S$100 /day</p>
+                        <p><a href="reserve.html"><button>Reserve now</button></a></p>
+                    </div>
+                    <div class="filterDiv hyundai">
+                        <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/hyundai-ioniq-5-au-my24-1001x565-%281%29.jpg" alt="hyundai ioniq 5">
+                        <h1>Hyundai Ioniq 5</h1>
+                        <table class="carspecs">
+                            <tr>
+                                <td><img src="https://p7.hiclipart.com/preview/722/101/213/computer-icons-user-profile-circle-abstract.jpg" alt="pax"> Pax: 5</td>
+                                <td><img src="https://www.freeiconspng.com/thumbs/battery-icon/battery-icon-13.png" alt="battery"> 74.0 kWh</td>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEYvLIpmqX-oWpFYUdR0MwicLLlKVHSqqAw&s" alt="eco"> 192 Wh/km</td>                            </tr>
+                        </table>
+                        <p class="price">S$117 /day</p>
+                        <p><a href="reserve.html"><button>Reserve now</button></a></p>
+                    </div>
+                    <div class="filterDiv hyundai">
+                        <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg__marking_background__sm_/v1/editorial/2023-Hyundai-Ioniq-6-Sedan-Black-1001x565-%281%29.jpg" alt="hyundai ioniq 6">
+                        <h1>Hyundai Ioniq 6</h1>
+                        <table class="carspecs">
+                            <tr>
+                                <td><img src="https://p7.hiclipart.com/preview/722/101/213/computer-icons-user-profile-circle-abstract.jpg" alt="pax"> Pax: 4</td>
+                                <td><img src="https://www.freeiconspng.com/thumbs/battery-icon/battery-icon-13.png" alt="battery"> 74.0 kWh</td>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEYvLIpmqX-oWpFYUdR0MwicLLlKVHSqqAw&s" alt="eco"> 148 Wh/km</td>
+                            </tr>
+                        </table>
+                        <p class="price">S$130 /day</p>
+                        <p><a href="reserve.html"><button>Reserve now</button></a></p>
+                    </div>
+                    <div class="filterDiv bmw">
+                        <img src="https://ev-database.org/img/auto/BMW_iX1_2022/BMW_iX1_2022-01.jpg" alt="iX1 xDrive30">
+                        <h1>iX1 xDrive30</h1>
+                        <table class="carspecs">
+                            <tr>
+                                <td><img src="https://p7.hiclipart.com/preview/722/101/213/computer-icons-user-profile-circle-abstract.jpg" alt="pax"> Pax: 5</td>
+                                <td><img src="https://www.freeiconspng.com/thumbs/battery-icon/battery-icon-13.png" alt="battery"> 64.7 kWh</td>
+                                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrEYvLIpmqX-oWpFYUdR0MwicLLlKVHSqqAw&s" alt="eco"> 170 Wh/km</td>
+                            </tr>
+                        </table>
+                        <p class="price">S$100 /day</p>
+                        <p><a href="reserve.html"><button>Reserve now</button></a></p>
+                    </div>  
+                </div>
+            </main>
+        </div>
+        <br>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>AZoom Car Rental is a local car rental company that specializes in renting electric car for the public.</p>
+                    <p> There is a range of electric cars available and for the environmental conscious customers,</p>
+                    <p>AZoom Car Rental offers an attractive option for transportation.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Tel: <a href="tel:+6598237832">+65 9823 7832</a></p>
+                    <p>Email: <a href=mailto:"AZCarRental@zmail.com">AZCarRental@zmail.com</a></p>
+                </div>
+            </div>
+            <div class="copyright">
+            <p>&copy; 2024 AZoom Car Rental. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
